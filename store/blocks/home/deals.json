@@ -10,7 +10,7 @@
       "blockClass": "deals"
     }
   },
-
+  
   "flex-layout.col#deals1": {
     "children": [
       "image#deal1",
@@ -84,3 +84,4 @@
     }
   }
 }
+

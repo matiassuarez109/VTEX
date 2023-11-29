@@ -1,6 +1,6 @@
 {
-  "vendor": "vtex",
-  "name": "store-theme",
+  "vendor": "redclover",
+  "name": "redclover-theme",
   "version": "5.1.0",
   "builders": {
     "styles": "2.x",

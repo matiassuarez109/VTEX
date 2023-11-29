@@ -1,5 +1,5 @@
 .galleryLayoutOptionButton {
-  background-color: #F0F0F0;
+  background-color: #F0F0F0; /* color de list en listas de las fotos de precio*/
   color: #3F3F40;
   padding: 0.375rem 0.75rem 0.375rem 0.75rem;
 }

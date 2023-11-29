@@ -19,7 +19,7 @@
       "fullWidth": true
     }
   },
-  
+
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -80,9 +80,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "https://drive.google.com/uc?id=1kUc4LWmg08cJBDogh_oz7vruvrEJezAE", //logo
       "width": "180",
-      "height": "12"
+      "height": "60"
     }
   },
   "header-layout.mobile": {
@@ -125,9 +125,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "77.5",
-      "height": "27.5"
+      "url": "https://drive.google.com/uc?id=1kUc4LWmg08cJBDogh_oz7vruvrEJezAE",
+      "width": "100",
+      "height": "60"
     }
   }
 }
