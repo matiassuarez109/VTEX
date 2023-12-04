@@ -36,12 +36,10 @@
       "title": "banner principal",
       "height": 570,
       "preload": true,
-      "scrollTo":"#footer",
       "images": [
         {
           "image": "https://drive.google.com/uc?id=10plVl9XtjYCOmqglzjGn0FaNJEQavX40",
           "mobileImage": "https://drive.google.com/uc?id=1_CqHmuMrgz3Aj_vMeWRZ_aJDWbog5FWm"
-
         },
         {
           "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
@@ -74,6 +72,7 @@
       "blockClass": "shelfTitle"
     }
   },
+
   "flex-layout.row#shelf": {
     "children": [
       "list-context.product-list#demo1"
@@ -91,6 +90,7 @@
       "orderBy": "OrderByTopSaleDESC"
     }
   },
+
   "flex-layout.row#shelff": {
     "children": [
       "list-context.product-list#demo2"
