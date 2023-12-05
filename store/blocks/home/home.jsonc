@@ -86,20 +86,23 @@
     "children": [
       "flex-layout.row#container-a",
       "flex-layout.row#container-b"
-    ],
-    "props": {
-      "widths": "10% 90%"
-    }
+    ]
+
   },
+
   "flex-layout.row#container-a": {
     "children": [
       "image#example"
-    ]
+    ],
+    "props": {
+      "width": "25%"
+    }
   },
   "image#example": {
     "props": {
       "src": "https://drive.google.com/uc?id=1ADISk_glIVUYLSPGIKZNJDMG6t3lgsyy",
-      "maxHeight": 500
+      "maxHeight": 400,
+      "maxWidth":600
     }
   },
   "flex-layout.row#container-b": {
@@ -112,11 +115,25 @@
       "product-summary.shelf"
     ],
     "children": [
-      "slider-layout#demo-products"
+      "slider-layout#demo-productss"
     ],
     "props": {
       "category": "32/35",
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "width":"75%"
+
+    }
+  },
+  "slider-layout#demo-productss": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
     }
   },
   //vtrina 2
