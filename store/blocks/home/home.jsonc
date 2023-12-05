@@ -7,6 +7,7 @@
       "flex-layout.row#deals",
       "__fold__",
       "back-to-top-button",
+      //"store-link",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "rich-text#shelff-title",
@@ -17,10 +18,15 @@
       "newsletter"
     ]
   },
-
-
-
-
+  //logo wp
+  "link.product#product-page": {
+    "props": {
+      "label": "https://drive.google.com/uc?id=17q-ygiiQT1xGe8jQWLzMvi7RpiXMQofW",
+      "target": "",
+      "size" : "regular"
+    }
+  },
+  //boton ir arriba
   "back-to-top-button": {
     "props": {
       "displayThreshold": 100,
@@ -48,6 +54,7 @@
       ]
     }
   },
+  //banner medio
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
@@ -60,20 +67,42 @@
       "blockClass": "carousel"
     }
   },
+  //titulo 1
   "rich-text#shelf-title": {
     "props": {
       "text": "## Casamiento",
       "blockClass": "shelfTitle"
     }
   },
+  //titulo 2
   "rich-text#shelff-title": {
     "props": {
       "text": "## Baby Shawer",
       "blockClass": "shelfTitle"
     }
   },
-
+  //contenedor 1 vtrina
   "flex-layout.row#shelf": {
+    "children": [
+      "flex-layout.row#container-a",
+      "flex-layout.row#container-b"
+    ],
+    "props": {
+      "widths": "10% 90%"
+    }
+  },
+  "flex-layout.row#container-a": {
+    "children": [
+      "image#example"
+    ]
+  },
+  "image#example": {
+    "props": {
+      "src": "https://drive.google.com/uc?id=1ADISk_glIVUYLSPGIKZNJDMG6t3lgsyy",
+      "maxHeight": 500
+    }
+  },
+  "flex-layout.row#container-b": {
     "children": [
       "list-context.product-list#demo1"
     ]
@@ -90,7 +119,7 @@
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-
+  //vtrina 2
   "flex-layout.row#shelff": {
     "children": [
       "list-context.product-list#demo2"
@@ -120,6 +149,8 @@
       "blockClass": "shelf"
     }
   },
+
+  //crad 50%off
   "info-card#home": {
     "props": {
       "id": "info-card-home",
