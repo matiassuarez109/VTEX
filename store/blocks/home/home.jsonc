@@ -7,7 +7,6 @@
       "flex-layout.row#deals",
       "__fold__",
       "back-to-top-button",
-      //"store-link",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "rich-text#shelff-title",
@@ -19,13 +18,7 @@
     ]
   },
   //logo wp
-  "link.product#product-page": {
-    "props": {
-      "label": "https://drive.google.com/uc?id=17q-ygiiQT1xGe8jQWLzMvi7RpiXMQofW",
-      "target": "",
-      "size": "regular"
-    }
-  },
+
   //boton ir arriba
   "back-to-top-button": {
     "props": {
