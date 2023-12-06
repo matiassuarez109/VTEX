@@ -23,7 +23,7 @@
     "props": {
       "label": "https://drive.google.com/uc?id=17q-ygiiQT1xGe8jQWLzMvi7RpiXMQofW",
       "target": "",
-      "size" : "regular"
+      "size": "regular"
     }
   },
   //boton ir arriba
@@ -84,47 +84,52 @@
   //contenedor 1 vtrina
   "flex-layout.row#shelf": {
     "children": [
-      "flex-layout.row#container-a",
-      "flex-layout.row#container-b"
-    ]
-
-  },
-
-  "flex-layout.row#container-a": {
-    "children": [
-      "image#example"
+      "flex-layout.col#shelf-02-col-1",
+      "flex-layout.col#shelf-02-col-2"
     ],
     "props": {
-      "width": "25%"
+      "fullWidth": true,
+      "blockClass": "shelf-01"
     }
   },
-  "image#example": {
-    "props": {
-      "src": "https://drive.google.com/uc?id=1ADISk_glIVUYLSPGIKZNJDMG6t3lgsyy",
-      "maxHeight": 400,
-      "maxWidth":600
-    }
-  },
-  "flex-layout.row#container-b": {
-    "children": [
-      "list-context.product-list#demo1"
+  "flex-layout.col#shelf-02-col-1":{
+    "title":"Shelf#1 - Banner",
+    "props" : {
+      "width":"25%",
+      "blockClass": "shelf-01-col-1"
+    },
+    "children" : [
+      "image#shelf-02-col-01"
     ]
   },
-  "list-context.product-list#demo1": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#demo-productss"
-    ],
-    "props": {
-      "category": "32/35",
-      "orderBy": "OrderByTopSaleDESC",
-      "width":"75%"
 
+  "image#shelf-02-col-01": {
+    "title":"Imagen Shelf #1",
+    "props": {
+      "src": "https://drive.google.com/uc?id=1rJ_YO2RitHtK8yb5_-XQae2dASbsJ8YZ"
     }
   },
-  "slider-layout#demo-productss": {
+  "flex-layout.col#shelf-02-col-2":{
+    "title":"Shelf#2 - Productos",
+    "props" : {
+      "width":"75%",
+      "blockClass": "shelf-01-col-2"
+    },
+    "children" : [
+      "list-context.product-list#shelf-02"
+    ]
+  },
+
+
+  "list-context.product-list#shelf-02": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-02"],
+    "props": {
+      "category":"32/35",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#shelf-02": {
     "props": {
       "itemsPerPage": {
         "desktop": 3,
@@ -139,26 +144,57 @@
   //vtrina 2
   "flex-layout.row#shelff": {
     "children": [
-      "list-context.product-list#demo2"
-    ]
-  },
-  "list-context.product-list#demo2": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#demo-products"
+      "flex-layout.col#shelf-02-col-22",
+      "flex-layout.col#shelf-02-col-11"
+
     ],
     "props": {
-      "category": "32/38",
+      "fullWidth": true,
+      "blockClass": "shelf-01"
+    }
+  },
+  "flex-layout.col#shelf-02-col-11":{
+    "title":"Shelf#1 - Banner",
+    "props" : {
+      "width":"25%",
+      "blockClass": "shelf-01-col-1"
+    },
+    "children" : [
+      "image#shelf-02-col-011"
+    ]
+  },
+
+  "image#shelf-02-col-011": {
+    "title":"Imagen Shelf #1",
+    "props": {
+      "src": "https://drive.google.com/uc?id=1dmmmGI7ARy-LXq48UyC4n__v1lUlpevN"
+    }
+  },
+  "flex-layout.col#shelf-02-col-22":{
+    "title":"Shelf#2 - Productos",
+    "props" : {
+      "width":"75%",
+      "blockClass": "shelf-01-col-2"
+    },
+    "children" : [
+      "list-context.product-list#shelf-022"
+    ]
+  },
+
+
+  "list-context.product-list#shelf-022": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-022"],
+    "props": {
+      "category":"32/38",
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-  "slider-layout#demo-products": {
+  "slider-layout#shelf-022": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
+        "desktop": 3,
+        "tablet": 2,
         "phone": 1
       },
       "infinite": true,
@@ -166,7 +202,6 @@
       "blockClass": "shelf"
     }
   },
-
   //crad 50%off
   "info-card#home": {
     "props": {
