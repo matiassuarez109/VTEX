@@ -7,8 +7,10 @@
       "flex-layout.row#deals",
       "__fold__",
       "back-to-top-button",
+      "sticky-layout#wp",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
+      //"flex-layout.row#shellf",
       "rich-text#shelff-title",
       "flex-layout.row#shelff",
       "info-card#home",
@@ -17,7 +19,49 @@
       "newsletter"
     ]
   },
+
+
+  "newsletter":{
+    "props":{
+      "label": "",
+      "submit": "enviar",
+      "blockclass": "newsletter"
+    }
+
+  },
+
+
+
+
+
+  "notification.bar":{
+    "props":{
+      "content":
+      "HASTA 6 CUOTAS SIN INTERES Y ENVIO GRATIS"
+    }
+  },
+
+
+
   //logo wp
+  "sticky-layout#wp":{
+    "props": {
+      "position": "bottom"
+    },
+    "children":[
+      "image#ewp"
+    ]
+  },
+  "image#ewp": {
+    "props": {
+      "blockClass": "wp",
+      "src": "https://drive.google.com/uc?id=10BMa43XrA5d48Z0U26MGjZEHrIG6jeC1",
+      "maxHeight": 50,
+      "link": {
+        "url":"https://api.whatsapp.com/send/?phone=5493816971483&text&type=phone_number&app_absent=0target=_blank"
+      }
+    }
+  },
 
   //boton ir arriba
   "back-to-top-button": {
@@ -47,6 +91,7 @@
       ]
     }
   },
+
   //banner medio
   "slider-layout#demo-images": {
     "props": {
@@ -134,6 +179,42 @@
       "blockClass": "shelf"
     }
   },
+/*
+  //video
+  "flex-layout.row#shellf":{
+    "children": [
+      "video#background",
+      "flex-layout.col#shelf-06"
+    ],
+    "props":{
+      "fullWidth": true,
+      "blockClass": "video"
+    }
+  },
+
+  "flex-layout.col#shelf-06":{
+    "props":{
+      "width":"25%"
+    },
+    "children":[
+      "image#example"
+
+    ]
+  },
+
+  "video#background": {
+    "props": {
+      "width": "75%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://www.youtube.com/embed/GSpAAUw2tY8",
+      "blockClass": "videoEl"
+    }
+  },
+//<iframe width="320" height="560" src="https://www.youtube.com/embed/GSpAAUw2tY8" title="Decoraciones para Bodas." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+*/
   //vtrina 2
   "flex-layout.row#shelff": {
     "children": [
@@ -195,6 +276,8 @@
       "blockClass": "shelf"
     }
   },
+
+
   //crad 50%off
   "info-card#home": {
     "props": {

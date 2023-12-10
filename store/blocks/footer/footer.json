@@ -43,6 +43,10 @@
         {
           "name": "Youtube",
           "url": "https://www.youtube.com/user/VTEXTV"
+        },
+        {
+          "name": "LinKedIn",
+          "url": "https://www.linkedin.com/feed/?trk=seo-authwall-base_sign-in-submit"
         }
       ]
     }

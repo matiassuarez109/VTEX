@@ -25,6 +25,7 @@
       "menu-item#vtex-website"
     ]
   },
+
   "menu-item#vtex-website": {
     "props": {
       "id": "menu-item-vtex-website",

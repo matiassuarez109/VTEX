@@ -5,10 +5,13 @@
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
+
+
   "header-layout.desktop": {
     "children": [
+      "notification.bar",
       "flex-layout.row#1-desktop",
-      "flex-layout.row#3-desktop",
+      //"flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
     ]
   },
@@ -64,6 +67,19 @@
       "minicart.v2"
     ]
   },
+
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "text": "Ingresar"
+    }
+  },
+
+
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
@@ -109,6 +125,8 @@
   "drawer": {
     "children": ["menu#drawer"]
   },
+
+
 
   "menu#drawer": {
     "children": [
