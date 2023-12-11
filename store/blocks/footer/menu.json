@@ -21,7 +21,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "News",
-        "text": "News"
+        "text": "Somos ANNETA"
       }
     }
   },
@@ -36,7 +36,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "text": "Conocenos"
       }
     }
   },
@@ -51,7 +51,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Sale",
-        "text": "Sale"
+        "text": "Consultas"
       }
     }
   },
@@ -66,7 +66,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Personalization",
-        "text": "Personalization"
+        "text": ""
       }
     }
   },
@@ -93,7 +93,7 @@
         "href": "/decoration/smartphones",
         "noFollow": true,
         "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "text": ""
       }
     }
   },
@@ -109,7 +109,7 @@
         "href": "/decoration/videogames",
         "noFollow": true,
         "tagTitle": "Videogames",
-        "text": "Videogames"
+        "text": ""
       }
     }
   },
@@ -125,7 +125,7 @@
         "href": "/decoration/tvs",
         "noFollow": true,
         "tagTitle": "TVs",
-        "text": "TVs"
+        "text": ""
       }
     }
   },
@@ -152,7 +152,7 @@
         "href": "/bags/d",
         "noFollow": true,
         "tagTitle": "Bags",
-        "text": "Bags"
+        "text": ""
       }
     }
   },
@@ -168,7 +168,7 @@
         "href": "/bags/backpacks",
         "noFollow": true,
         "tagTitle": "Backpacks",
-        "text": "Backpacks"
+        "text": ""
       }
     }
   },
@@ -184,7 +184,7 @@
         "href": "/bags/necessaire",
         "noFollow": true,
         "tagTitle": "Necessaire",
-        "text": "Necessaire"
+        "text": ""
       }
     }
   },
@@ -225,7 +225,7 @@
         "href": "/clothing/d",
         "noFollow": true,
         "tagTitle": "Clothing",
-        "text": "Clothing"
+        "text": "TE AYUDAMOS CON TU COMPRA"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
@@ -251,7 +251,7 @@
     "props": {
       "itemProps": {
         "tagTitle": "Decoration",
-        "text": "Decoration"
+        "text": "Somos ANNETA"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
@@ -275,7 +275,7 @@
     "props": {
       "itemProps": {
         "tagTitle": "Sale",
-        "text": "Sale"
+        "text": "Consultas"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
@@ -306,7 +306,7 @@
         "href": "/clothing/d",
         "noFollow": true,
         "tagTitle": "Clothing",
-        "text": "Clothing"
+        "text": "TE AYUDAMOS CON TU COMPRA"
       }
     }
   },
@@ -322,7 +322,7 @@
         "href": "/clothing/shorts",
         "noFollow": false,
         "tagTitle": "Shorts",
-        "text": "Shorts"
+        "text": ""
       }
     }
   },
@@ -338,7 +338,7 @@
         "href": "/clothing/tank-tops",
         "noFollow": false,
         "tagTitle": "Tank tops",
-        "text": "Tank tops"
+        "text": "Envios y Devoluciones"
       }
     }
   },
@@ -354,7 +354,7 @@
         "href": "/clothing/shirts",
         "noFollow": false,
         "tagTitle": "Shirts",
-        "text": "Shirts"
+        "text": ""
       }
     }
   },
@@ -370,7 +370,7 @@
         "href": "/clothing/sweatshirt",
         "noFollow": false,
         "tagTitle": "Sweatshirt",
-        "text": "Sweatshirt"
+        "text": "Formas de pago"
       }
     }
   },
@@ -386,7 +386,7 @@
         "href": "/clothing/cropped",
         "noFollow": false,
         "tagTitle": "Cropped",
-        "text": "Cropped"
+        "text": ""
       }
     }
   }

@@ -18,13 +18,13 @@
   /*footer*/
   max-width: 1528px;
   margin: 0 auto;
-  background-image: url("https://drive.google.com/uc?id=171wshGYGRoigw-f893KKZChUI0hZsMyG");
+  background-image: url("https://drive.google.com/uc?id=1XLy-00ND4ZtvdA1j9_ROE8wDM0WFdgMU");
   height: 500px;
 }
 
 @media (max-width: 425px) {
   .newsletter{
-    background-image: url("https://drive.google.com/uc?id=1q-dtuPiYQ01RkGjoDKn_Ez6NZTJmumlq");
+    background-image: url("https://drive.google.com/uc?id=1vj7xQum2SvIVVxMWQktQ7-2rUh1QBtOI");
     height: 300px;
   }
 
@@ -133,4 +133,17 @@
 .imageElement--wp{
   z-index: auto;
   bottom: 100px;
+}
+
+.searchBarContainer{
+  width: 450px;
+}
+
+
+.logoImage--logofoot{
+  position: absolute; /* Fija el elemento en la pantalla */
+  left: 67%; /* Centra el logo horizontalmente */
+  transform: translateX(-50%); /* Ajusta para centrar el logo correctamente */
+  top: 3150px;
+  
 }

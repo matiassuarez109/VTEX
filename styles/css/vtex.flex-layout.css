@@ -38,8 +38,9 @@
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
-  color: #727273; /*color de header*/
+  color: #050505; /*color de header*/
   font-size: 14px;
+  font-weight: bold;
 }
 
 .flexRow--deals {

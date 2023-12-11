@@ -20,35 +20,24 @@
     ]
   },
 
-
-  "newsletter":{
-    "props":{
+  "newsletter": {
+    "props": {
       "label": "",
       "submit": "enviar",
       "blockclass": "newsletter"
     }
-
   },
-
-
-
-
-
-  "notification.bar":{
-    "props":{
-      "content":
-      "HASTA 6 CUOTAS SIN INTERES Y ENVIO GRATIS"
+  "notification.bar": {
+    "props": {
+      "content": "HASTA 6 CUOTAS SIN INTERES Y ENVIO GRATIS"
     }
   },
-
-
-
   //logo wp
-  "sticky-layout#wp":{
+  "sticky-layout#wp": {
     "props": {
       "position": "bottom"
     },
-    "children":[
+    "children": [
       "image#ewp"
     ]
   },
@@ -58,11 +47,10 @@
       "src": "https://drive.google.com/uc?id=10BMa43XrA5d48Z0U26MGjZEHrIG6jeC1",
       "maxHeight": 50,
       "link": {
-        "url":"https://api.whatsapp.com/send/?phone=5493816971483&text&type=phone_number&app_absent=0target=_blank"
+        "url": "https://api.whatsapp.com/send/?phone=5493816971483&text&type=phone_number&app_absent=0target=_blank"
       }
     }
   },
-
   //boton ir arriba
   "back-to-top-button": {
     "props": {
@@ -81,17 +69,16 @@
       "preload": true,
       "images": [
         {
-          "image": "https://drive.google.com/uc?id=10plVl9XtjYCOmqglzjGn0FaNJEQavX40",
-          "mobileImage": "https://drive.google.com/uc?id=1_CqHmuMrgz3Aj_vMeWRZ_aJDWbog5FWm"
+          "image": "https://drive.google.com/uc?id=10hsgNowI-vloGsrhBsq891jvjiRIJkGb",
+          "mobileImage": "https://drive.google.com/uc?id=1zmuKxsSAsT6ZuWZKZWcg6jOYfRWu_zxS"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+          "image": "https://drive.google.com/uc?id=1e9NLFFyYO1xslp8C785GA8sYWaf7hpfv",
+          "mobileImage": "https://drive.google.com/uc?id=1n6Gxaorn8CjSHjPw9NyHGNyLWv7tqEvI"
         }
       ]
     }
   },
-
   //banner medio
   "slider-layout#demo-images": {
     "props": {
@@ -108,7 +95,7 @@
   //titulo 1
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Casamiento",
+      "text": "## Casamientos",
       "blockClass": "shelfTitle"
     }
   },
@@ -130,40 +117,41 @@
       "blockClass": "shelf-01"
     }
   },
-  "flex-layout.col#shelf-02-col-1":{
-    "title":"Shelf#1 - Banner",
-    "props" : {
-      "width":"25%",
+  "flex-layout.col#shelf-02-col-1": {
+    "title": "Shelf#1 - Banner",
+    "props": {
+      "width": "25%",
       "blockClass": "shelf-01-col-1"
     },
-    "children" : [
+    "children": [
       "image#shelf-02-col-01"
     ]
   },
-
   "image#shelf-02-col-01": {
-    "title":"Imagen Shelf #1",
+    "title": "Imagen Shelf #1",
     "props": {
       "src": "https://drive.google.com/uc?id=1rJ_YO2RitHtK8yb5_-XQae2dASbsJ8YZ"
     }
   },
-  "flex-layout.col#shelf-02-col-2":{
-    "title":"Shelf#2 - Productos",
-    "props" : {
-      "width":"75%",
+  "flex-layout.col#shelf-02-col-2": {
+    "title": "Shelf#2 - Productos",
+    "props": {
+      "width": "75%",
       "blockClass": "shelf-01-col-2"
     },
-    "children" : [
+    "children": [
       "list-context.product-list#shelf-02"
     ]
   },
-
-
   "list-context.product-list#shelf-02": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#shelf-02"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#shelf-02"
+    ],
     "props": {
-      "category":"32/35",
+      "category": "32/35",
       "orderBy": "OrderByTopSaleDESC"
     }
   },
@@ -179,7 +167,7 @@
       "blockClass": "shelf"
     }
   },
-/*
+  /*
   //video
   "flex-layout.row#shellf":{
     "children": [
@@ -220,47 +208,47 @@
     "children": [
       "flex-layout.col#shelf-02-col-22",
       "flex-layout.col#shelf-02-col-11"
-
     ],
     "props": {
       "fullWidth": true,
       "blockClass": "shelf-01"
     }
   },
-  "flex-layout.col#shelf-02-col-11":{
-    "title":"Shelf#1 - Banner",
-    "props" : {
-      "width":"25%",
+  "flex-layout.col#shelf-02-col-11": {
+    "title": "Shelf#1 - Banner",
+    "props": {
+      "width": "25%",
       "blockClass": "shelf-01-col-1"
     },
-    "children" : [
+    "children": [
       "image#shelf-02-col-011"
     ]
   },
-
   "image#shelf-02-col-011": {
-    "title":"Imagen Shelf #1",
+    "title": "Imagen Shelf #1",
     "props": {
-      "src": "https://drive.google.com/uc?id=1dmmmGI7ARy-LXq48UyC4n__v1lUlpevN"
+      "src": "https://drive.google.com/uc?id=1EMcbmJzhGUt6CPors-GFP8UzQ3TG0gfm"
     }
   },
-  "flex-layout.col#shelf-02-col-22":{
-    "title":"Shelf#2 - Productos",
-    "props" : {
-      "width":"75%",
+  "flex-layout.col#shelf-02-col-22": {
+    "title": "Shelf#2 - Productos",
+    "props": {
+      "width": "75%",
       "blockClass": "shelf-01-col-2"
     },
-    "children" : [
+    "children": [
       "list-context.product-list#shelf-022"
     ]
   },
-
-
   "list-context.product-list#shelf-022": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#shelf-022"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#shelf-022"
+    ],
     "props": {
-      "category":"32/38",
+      "category": "32/38",
       "orderBy": "OrderByTopSaleDESC"
     }
   },
@@ -276,16 +264,14 @@
       "blockClass": "shelf"
     }
   },
-
-
   //crad 50%off
   "info-card#home": {
     "props": {
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://drive.google.com/uc?id=1ADISk_glIVUYLSPGIKZNJDMG6t3lgsyy",
-      "headline": "Liquidacion",
+      "imageUrl": "https://drive.google.com/uc?id=1oGewFdYikB03FnYrjgVOuRl5P_8P5P3B",
+      "headline": "LIQUIDACION",
       "callToActionText": "VER MAS",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-home",

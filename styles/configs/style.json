@@ -75,7 +75,7 @@
         },
         "hover-background": {
           "action-primary": "#e05576",
-          "action-secondary": "#dbe9fd",
+          "action-secondary": "#b83e77",
           "emphasis": "#dd1659",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -240,7 +240,7 @@
         }
       },
       "borderWidths": [0, 0.125, 0.25, 0.5, 1, 2],
-      "borderRadius": [0, 0.125, 0.25, 0.5, 1],
+      "borderRadius": [0, 0.125, 5, 0.5, 1],
       "widths": [1, 2, 4, 8, 16],
       "maxWidths": [1, 2, 4, 8, 16, 32, 48, 64, 96],
       "heights": [1, 2, 4, 8, 16],

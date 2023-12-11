@@ -43,7 +43,7 @@
   },
   "rich-text#deal2": {
     "props": {
-      "text": "Despachos Rapidos",
+      "text": "Despachos Rápidos",
       "blockClass": "deals"
     }
   },

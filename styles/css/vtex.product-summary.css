@@ -40,3 +40,12 @@
 .image {
   border-radius: 0.25rem;
 }
+
+.imageNormal:hover {
+  transform: scale(1.1); /* Ajusta el valor según sea necesario*/
+  transition: transform 0.9s ease; /* Agrega una transición suave*/
+}
+
+
+
+
