@@ -132,9 +132,10 @@
 
 .imageElement--wp{
   padding-left: 40px;
-  padding-bottom: 30px;
-  
+
 }
+
+
 
 .searchBarContainer{
   width: 450px;
@@ -145,7 +146,7 @@
   position: absolute; /* Fija el elemento en la pantalla */
   left: 67%; /* Centra el logo horizontalmente */
   transform: translateX(-50%); /* Ajusta para centrar el logo correctamente */
-  top: 3940px;
+  top: 3970px;
 
 }
 

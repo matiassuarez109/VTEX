@@ -7,11 +7,9 @@
       "flex-layout.row#deals",
       "__fold__",
       "back-to-top-button",
-      //"link#whatsapp",
       "sticky-layout#wp",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      //"flex-layout.row#shellf",
       "rich-text#shelff-title",
       "flex-layout.row#shelff",
       "info-card#home",
@@ -36,15 +34,6 @@
     }
   },
   //logo wp
-/*
- "link#whatsapp": {
-    "props": {
-      "blockClass": "whatsapp",
-      "target": "https://api.whatsapp.com/send/?phone=5493816971483&text&type=phone_number&app_absent=0target=_blank",
-      "label": "https://drive.google.com/uc?id=10BMa43XrA5d48Z0U26MGjZEHrIG6jeC1"
-    }
-  },*/
-
 
  "sticky-layout#wp": {
     "props": {
@@ -68,6 +57,7 @@
   //boton ir arriba
   "back-to-top-button": {
     "props": {
+      "blockClass":"gotop",
       "displayThreshold": 100,
       "display": "caret-icon"
     }
