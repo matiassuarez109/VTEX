@@ -19,8 +19,9 @@
   },
   "image#deal1": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "maxHeight": "24px"
+      "src": "https://drive.google.com/uc?id=1W7JtULCddLnE02EIvtnS755BiCi7WMzo",
+      "maxHeight": "60px",
+      "blockClass":"deals"
     }
   },
   "rich-text#deal1": {
@@ -37,8 +38,8 @@
   },
   "image#deal2": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
-      "maxHeight": "24px"
+      "src": "https://drive.google.com/uc?id=1vIAQ4LzJdGU1e774jisn8hA5rX46rqp9",
+      "maxHeight": "60px"
     }
   },
   "rich-text#deal2": {
@@ -55,8 +56,8 @@
   },
   "image#deal3": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
-      "maxHeight": "24px"
+      "src": "https://drive.google.com/uc?id=1cm9cIYV9QI1CDeysiKyD8-pQyAlcfyVr",
+      "maxHeight": "70px"
     }
   },
   "rich-text#deal3": {
@@ -73,8 +74,8 @@
   },
   "image#deal4": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-      "maxHeight": "24px"
+      "src": "https://drive.google.com/uc?id=1DV4WMQ-fCeD1d4AdaY9T61TFZhuTnVyQ",
+      "maxHeight": "70px"
     }
   },
   "rich-text#deal4": {

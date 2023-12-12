@@ -7,6 +7,7 @@
       "flex-layout.row#deals",
       "__fold__",
       "back-to-top-button",
+      //"link#whatsapp",
       "sticky-layout#wp",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
@@ -14,6 +15,8 @@
       "rich-text#shelff-title",
       "flex-layout.row#shelff",
       "info-card#home",
+      "rich-text#shelf-title3",
+      "flex-layout.row#shelf03",
       //"rich-text#question",
       //"rich-text#link",
       "newsletter"
@@ -33,7 +36,17 @@
     }
   },
   //logo wp
-  "sticky-layout#wp": {
+/*
+ "link#whatsapp": {
+    "props": {
+      "blockClass": "whatsapp",
+      "target": "https://api.whatsapp.com/send/?phone=5493816971483&text&type=phone_number&app_absent=0target=_blank",
+      "label": "https://drive.google.com/uc?id=10BMa43XrA5d48Z0U26MGjZEHrIG6jeC1"
+    }
+  },*/
+
+
+ "sticky-layout#wp": {
     "props": {
       "position": "bottom"
     },
@@ -51,6 +64,7 @@
       }
     }
   },
+
   //boton ir arriba
   "back-to-top-button": {
     "props": {
@@ -264,6 +278,40 @@
       "blockClass": "shelf"
     }
   },
+
+//titulo3
+"rich-text#shelf-title3": {
+  "props": {
+    "text": "## Navidad",
+    "blockClass": "shelfTitle"
+  }
+},
+  //vitrina3
+
+  "flex-layout.row#shelf03": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "category":"32/33",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf"
+    }
+  },
+
   //crad 50%off
   "info-card#home": {
     "props": {
